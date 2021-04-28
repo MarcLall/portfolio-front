@@ -1,5 +1,6 @@
 import './Home.css'
 
+import Footer from '../components/Footer'
 import Me from '../components/Me'
 
 const home = () => {
@@ -7,6 +8,7 @@ const home = () => {
     <div>
       Bienvenue sur mon site realiser a la main par mes soins
       <Me />
+      <Footer />
     </div>
   )
 }

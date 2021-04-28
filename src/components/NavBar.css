@@ -2,22 +2,35 @@
  #navbar {
     overflow: hidden;
     background-color: #333;
+    display : flex;
   }
   
   /* Navbar links */
-  #navbar a {
+  .navBar li {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px;
+    list-style: none;
     text-decoration: none;
   }
+li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
   
   /* Page content */
-  .content {
+  .navTo {
     padding: 16px;
   }
+
+
   
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
   .sticky {

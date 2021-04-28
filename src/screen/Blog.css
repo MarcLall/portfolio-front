@@ -1,0 +1,9 @@
+.containerArticle {
+    display:flex;
+    justify-content: space-around;
+  }
+
+.addarticle {
+    display:flex;
+    justify-content: center;
+}
